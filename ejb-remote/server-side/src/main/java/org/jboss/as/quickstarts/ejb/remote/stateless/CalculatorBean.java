@@ -18,12 +18,14 @@ package org.jboss.as.quickstarts.ejb.remote.stateless;
 
 import javax.ejb.Remote;
 import javax.ejb.Stateless;
+import javax.annotation.security.RolesAllowed;
 
 /**
  * @author Jaikiran Pai
  */
 @Stateless
 @Remote(RemoteCalculator.class)
+@RolesAllowed("Admin")
 public class CalculatorBean implements RemoteCalculator {
 
     @Override
