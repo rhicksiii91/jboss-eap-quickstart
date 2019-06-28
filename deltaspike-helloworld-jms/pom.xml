@@ -41,7 +41,7 @@
         <version.org.jboss.bom>1.0.4.CR7</version.org.jboss.bom>
 
         <!-- Weld Version -->
-        <version.org.jboss.weld>1.1.9.Final</version.org.jboss.weld>
+        <version.org.jboss.weld>2.0.1.Final</version.org.jboss.weld>
 
         <!-- JBoss dependency versions -->
         <version.org.jboss.as>7.1.1.Final</version.org.jboss.as>
